@@ -66,9 +66,8 @@ def crawl_tree(start_word, target, max_depth):
                                 substitution away from a word in the previous
                                 layer
         OUTPUT:
-                  -
-                  -
-               -
+                  - If successful: A path or word linking start_word to target
+                  - If unsuccessful: None
     """
     word_group = [start_word]
     word_groups = {}
@@ -122,6 +121,6 @@ if __name__ == "__main__":
                  ]
     for pair in pairs:
         start_word = pair[0]
-        end_word = pair[01]
+        end_word = pair[1]
         path = crawl_tree(start_word, end_word, MAX_DEPTH)
         print path
