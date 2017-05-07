@@ -1,21 +1,21 @@
-# Description: A list of common 4 letter words
-#
-# Purpose: This serves as a list of common 4 letter words that can appear as
-#          solutions in word puzzles such as (but not limited to) word ladders.
-#          It is not an exhaustive list - This is intended to be a close
-#          approximation to a complete list of words that a puzzle solver
-#          would accept as "fair" for use in a puzzle.
-#
-# Usage: This list can be imported into any python script
-#
-# Construction: Constructed by merging together various open source word lists
-#               used for word games such as scrabble. Each word was scored
-#               using googles n-gram frequency resource according to how often
-#               it has appeared in texts since 1980. Words with a score below
-#               a certain threshold were stripped out.
-#
-# Author: Jack Hurst
-words = [
+// Description: A list of common 4 letter words
+//
+// Purpose: This serves as a list of common 4 letter words that can appear as
+//          solutions in word puzzles such as (but not limited to) word ladders.
+//          It is not an exhaustive list - This is intended to be a close
+//          approximation to a complete list of words that a puzzle solver
+//          would accept as "fair" for use in a puzzle.
+//
+// Usage: This list can be imported into any python script
+//
+// Construction: Constructed by merging together various open source word lists
+//               used for word games such as scrabble. Each word was scored
+//               using googles n-gram frequency resource according to how often
+//               it has appeared in texts since 1980. Words with a score below
+//               a certain threshold were stripped out.
+//
+// Author: Jack Hurst
+module.exports = [
 'LASS',
 'LAST',
 'OPAL',

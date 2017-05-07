@@ -1,0 +1,11 @@
+{
+  "name": "puzzles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jwhiles/puzzles.git",
+  "author": "John Whiles <johnwhiles@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.6.3"
+  }
+}
